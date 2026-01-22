@@ -117,7 +117,7 @@ const SkeletonTwo = () => {
           key={"skelenton-two" + i}
           variants={variants}
           style={{
-            maxWidth: Math.random() * (100 - 40) + 40 + "%",
+         maxWidth: i % 2 === 0 ? "90%" : "60%",
           }}
           className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-black w-full h-4"
         ></motion.div>
