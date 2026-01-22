@@ -27,7 +27,7 @@ const menuOption = [
 
 export const AppHeader = () => {
   return (
-    <div className='flex items-center justify-between p-4 shadow px-10 md:px-20 lg:px-40 xl:px-60'>
+    <div className='flex items-center justify-between p-4 shadow px-10 md:px-20 lg:px-40 '>
         <Image src={'/logo.svg'} alt="logo" width={120} height={60}/>
             <div className='hidden md:flex gap-12 items-center'>
                 {menuOption.map((option, index) => (
